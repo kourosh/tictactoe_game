@@ -1,0 +1,67 @@
+body {
+	font-family: 'PT Serif', serif;
+}
+
+header {
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+table {
+	margin: 0 auto;
+	width: 1000px;
+	border-spacing: 10px;
+	table-layout: fixed;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	font-family: 'Open Sans', sans-serif;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 200px;
+	font-weight: bolder;
+}
+
+#box0 {
+	border-bottom: 10px solid black;
+	border-right: 10px solid black;
+	height: 300px;
+}
+
+#box1 {
+	border-bottom: 10px solid black;
+	border-right: 10px solid black;
+}
+
+#box2 {
+	border-bottom: 10px solid black;
+
+}
+
+#box3 {
+	border-bottom: 10px solid black;
+	height: 300px;	
+	border-right: 10px solid black;
+}
+
+#box4 {
+	border-bottom: 10px solid black;
+	border-right: 10px solid black;
+}
+
+#box5 {
+	border-bottom: 10px solid black;
+}
+
+#box6 {
+	border-right: 10px solid black;
+	height: 300px;
+}
+
+#box7 {
+	border-right: 10px solid black;
+}
