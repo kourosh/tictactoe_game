@@ -7,7 +7,7 @@ var counter = 0;   //counter to keep track of turns
 
 // main loop to listen for clicks, check for turns and fill blank squares
 for (var i = 0; i < squares.length; i++) {
-squares[i].addEventListener("click", function() {						 // add event listeners to squares
+	squares[i].addEventListener("click", function() {						 // add event listeners to squares
 		if (counter % 2 === 0 && this.getAttribute("class") === "blank") {   // check for x click on blank square
 			this.innerHTML = "X";
 			this.setAttribute("class", "filled");
@@ -17,8 +17,7 @@ squares[i].addEventListener("click", function() {						 // add event listeners t
 			this.setAttribute("class", "filled");
 			counter++;
 		} else {
-
 		}
-		}													// if click is on a filled square, don't increase counter
-		);	
+	}													// if click is on a filled square, don't increase counter
+	);	
 }
